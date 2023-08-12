@@ -40,8 +40,8 @@ $(document).ready(function(){
 
     function newCard(profesional){
 
-        let cardHtml = `
-            <div class="card" style="width: 18rem;">
+        let cardHtml = `  
+        <div class=" card row justify-content-between m-5" style="width: 18rem;">
             <img src="${profesional.photo}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Nombre: ${profesional.name}</h5>
